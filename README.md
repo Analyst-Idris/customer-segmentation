@@ -254,9 +254,15 @@ The model was deployed as an interactive web application.
 - Real-time segmentation prediction  
 - Instant cluster classification  
 
-### App Overview
+### App Interface
 
 <img width="921" height="811" alt="Image" src="https://github.com/user-attachments/assets/db8b2c1b-bcb4-4e96-8b7c-8a12e725ec91" />
+
+
+## Live Demo
+The model has been deployed as an interactive Streamlit application.
+
+**Live App:** https://customer-segmentation-hkrphruczfq6xrtcyn3kl8.streamlit.app/
 
 
 
@@ -271,13 +277,14 @@ The model was deployed as an interactive web application.
 - K-Means Clustering  
 - StandardScaler  
 - Streamlit  
-- Joblib  
+- Joblib
+- Jupyter Notebook
+- Visual Studio Code (VS Code)
+ 
 
 ---
 
 ## Key Skills Demonstrated
-
--# Key Skills Demonstrated
 
 - Exploratory Data Analysis (EDA)
 - Data Cleaning & Preprocessing
@@ -338,16 +345,11 @@ I am open to **freelance projects, data consulting, and collaboration opportunit
 
 ---
 
-## Email
+## Contact
 
-oladejoidris55@gmail.com 
-
-
----
-
-## WhatsApp
-
-https://wa.me/2347025062857
+- 📞 Phone: +234 702 506 2857  
+- 📧 Email: oladejoidris55@gmail.com  
+- 💬 WhatsApp: https://wa.me/2347025062857  
 
 ---
 
@@ -359,7 +361,8 @@ Nigeria (Available for Remote & On-site Work)
 
 ## Availability
 
-I typically respond within a few hours.  
+I typically respond within a few hours. 
+
 Open to both short-term and long-term engagements.
 
 ---
