@@ -2,9 +2,8 @@
 
 ---
 
-## Project Banner
-
 <img width="1024" height="572" alt="Image" src="https://github.com/user-attachments/assets/0d154550-58ae-4639-ac18-5749cd5e5e86" />
+
 ---
 
 ## Project Overview
@@ -93,9 +92,114 @@ The dataset contains customer demographic, purchasing, and engagement informatio
 - Data type validation  
 - Outlier investigation  
 
-### Visualization Placeholder
 
-<img width="589" height="453" alt="Image" src="https://github.com/user-attachments/assets/1eeb1300-8989-4fd5-8dfa-55cf39cb3796" />
+<img width="1032" height="1027" alt="Image" src="https://github.com/user-attachments/assets/518d4482-ea1e-49ab-aa6b-1d87a7c83155" />   <img width="580" height="493" alt="Image" src="https://github.com/user-attachments/assets/e8e6127f-a0b4-450c-bca5-6866707c9547" />
+
+
+
+---
+
+## Data Cleaning & Feature Engineering
+
+### Cleaning Steps
+
+- Removed duplicates  
+- Handled missing values  
+- Standardized formats  
+- Removed irrelevant columns  
+
+### Engineered Features
+
+- Age → Derived from Year of Birth  
+- Total_Children → Kidhome + Teenhome  
+- Total_Spending → Combined product categories  
+- Customer_Since → Tenure from registration date
+
+### Statistical Exploration
+
+Analyzed distributions for:
+
+- Income
+- Total spending
+- Website visits
+- Purchase frequency
+- Recency
+- Product category spending
+
+## Correlation Analysis
+
+A correlation matrix was constructed to examine relationships between key business variables.
+
+### Key Insights
+
+- Relationship between income and spending patterns  
+- Customer purchase behavior trends  
+- Customer engagement patterns across different metrics  
+- Impact of discounts on purchasing behavior  
+- Relationship between store-based purchasing activities  
+
+
+
+<img width="704" height="590" alt="Image" src="https://github.com/user-attachments/assets/088e88d2-ca3c-41ee-952f-615519d7a3fc" />
+
+
+### Summary
+
+This analysis provides a clearer understanding of how customer features interact and influence segmentation outcomes, supporting more informed business decision-making.
+
+
+---
+
+## Feature Engineering for Clustering
+
+| Feature | Meaning |
+|---|---|
+| Age | Demographics |
+| Income | Purchasing power |
+| Total_Spending | Customer value |
+| NumWebPurchases | Online behavior |
+| NumStorePurchases | Offline behavior |
+| NumWebVisitsMonth | Engagement level |
+| Recency | Activity freshness |
+
+
+---
+
+## Feature Scaling
+
+StandardScaler was applied to normalize feature ranges.
+
+### Why Scaling Matters
+
+- Prevents income dominance  
+- Ensures fair distance computation  
+- Improves clustering stability  
+
+---
+
+## Machine Learning Approach
+
+### Algorithm Used: K-Means Clustering
+
+K-Means was selected due to its effectiveness in identifying hidden customer groups without labels.
+
+---
+
+## Cluster Optimization (Elbow Method)
+
+The Elbow Method was used to determine optimal cluster count.
+
+### Process
+
+- Multiple K values tested  
+- Within-cluster variance measured  
+- Optimal balance identified  
+
+### Result
+
+ **Optimal Clusters = 6**
+
+<img width="589" height="453" alt="Image" src="https://github.com/user-attachments/assets/5f055ebe-5422-42ea-8242-5a7682d0d148" />
 
 
 
@@ -124,8 +228,6 @@ PCA was used to reduce dimensionality for visualization.
 - Enable 2D visualization  
 - Improve cluster interpretability  
 
-###  Visualization Placeholder
-
 <img width="565" height="453" alt="Image" src="https://github.com/user-attachments/assets/2433c9c2-0df9-4462-8799-906de4d103d1" />
 
 
@@ -152,7 +254,7 @@ The model was deployed as an interactive web application.
 - Real-time segmentation prediction  
 - Instant cluster classification  
 
-### App Screenshot Placeholder
+### App Overview
 
 <img width="921" height="811" alt="Image" src="https://github.com/user-attachments/assets/db8b2c1b-bcb4-4e96-8b7c-8a12e725ec91" />
 
@@ -161,7 +263,7 @@ The model was deployed as an interactive web application.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python  
 - Pandas / NumPy  
@@ -175,15 +277,40 @@ The model was deployed as an interactive web application.
 
 ## Key Skills Demonstrated
 
-- Data Cleaning & Preprocessing  
-- Feature Engineering  
-- Exploratory Data Analysis  
-- Unsupervised Machine Learning  
-- Customer Segmentation  
-- Model Deployment  
-- Business Intelligence  
+-# Key Skills Demonstrated
+
+- Exploratory Data Analysis (EDA)
+- Data Cleaning & Preprocessing
+- Feature Engineering
+- Unsupervised Machine Learning
+- Customer Analytics
+- Model Deployment
+- Business Problem Solving
+- End-to-End ML Workflow
+
 
 ---
+
+
+## Repository Structure
+
+Customer-Segmentation/
+
+│
+
+├── data/
+
+├── models/
+
+├── app/
+
+├── notebooks/
+
+├── visuals/
+
+└── README.md
+
+
 
 ## Conclusion
 
@@ -199,20 +326,46 @@ It enables businesses to:
 
 ---
 
-## Repository Structure
 
-Customer-Segmentation/
-│
+## Contact & Collaboration
 
-├── data/
+I am open to **freelance projects, data consulting, and collaboration opportunities** in:
 
-├── models/
+- Data Analysis & Visualization (Excel | SQL | Power BI | Python)
+- Machine Learning Solutions (Prediction | Segmentation | Forecasting)
+- Dashboard Development & Automation
+- Training & Mentorship in Data Skills
 
-├── app/
+---
 
-├── notebooks/
+## Email
 
-├── visuals/
+oladejoidris55@gmail.com 
 
-└── README.md
+
+---
+
+## WhatsApp
+
+https://wa.me/2347025062857
+
+---
+
+## Location
+
+Nigeria (Available for Remote & On-site Work)
+
+---
+
+## Availability
+
+I typically respond within a few hours.  
+Open to both short-term and long-term engagements.
+
+---
+
+## Let’s Build Something Impactful
+
+Data tells the story — I help you understand it, translate it into insight, and use it to drive business growth.
+
 
